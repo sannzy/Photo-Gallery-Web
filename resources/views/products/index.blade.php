@@ -19,7 +19,9 @@
                         <th>Description</th>
                         <th>Price</th>
                         <th>Stock</th>
-                        <th>Actions</th>
+                        @auth
+                            <th>Actions</th>
+                        @endauth
                     </tr>
                 </thead>
                 <tbody>
